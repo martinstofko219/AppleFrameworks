@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C60029F928AF123F009BF2E0 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60029F828AF123F009BF2E0 /* FrameworkDetailView.swift */; };
-		C60029FB28AF191F009BF2E0 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60029FA28AF191F009BF2E0 /* AppButton.swift */; };
 		C60029FD28AF2B25009BF2E0 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60029FC28AF2B25009BF2E0 /* FrameworkGridViewModel.swift */; };
 		C60726D828AF3F9F00AF0057 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60726D728AF3F9F00AF0057 /* SafariView.swift */; };
 		C60726DA28AF469400AF0057 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60726D928AF469400AF0057 /* FrameworkTitleView.swift */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		C60029F828AF123F009BF2E0 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
-		C60029FA28AF191F009BF2E0 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		C60029FC28AF2B25009BF2E0 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		C60726D728AF3F9F00AF0057 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		C60726D928AF469400AF0057 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				C60726D928AF469400AF0057 /* FrameworkTitleView.swift */,
-				C60029FA28AF191F009BF2E0 /* AppButton.swift */,
 			);
 			path = "View Components";
 			sourceTree = "<group>";
@@ -203,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C60029FB28AF191F009BF2E0 /* AppButton.swift in Sources */,
 				C60029F928AF123F009BF2E0 /* FrameworkDetailView.swift in Sources */,
 				C695541B28AEE66100EB67E7 /* FrameworkGridView.swift in Sources */,
 				C695542728AEE77C00EB67E7 /* Framework.swift in Sources */,

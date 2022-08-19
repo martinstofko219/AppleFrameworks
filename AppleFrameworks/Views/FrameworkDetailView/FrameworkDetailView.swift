@@ -35,11 +35,15 @@ struct FrameworkDetailView: View {
             
             Spacer()
             
-            Button(action: {
-                isShowingSafariView = true
-            }, label: {
-                AppButton(buttonText: "Learn More")
+            Button(action: { isShowingSafariView = true },
+                   label: {
+                Text("Learn More")
+                    .fontWeight(.semibold)
+                    .frame(width: 250)
             })
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+            .tint(.blue)
         }
         .fullScreenCover(isPresented: $isShowingSafariView, content: {
             SafariView(url: URL(string: framework.url) ?? URL(string: "https://developer.apple.com/develop/")!)
