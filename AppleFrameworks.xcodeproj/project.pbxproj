@@ -11,6 +11,7 @@
 		C60029FD28AF2B25009BF2E0 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60029FC28AF2B25009BF2E0 /* FrameworkGridViewModel.swift */; };
 		C60726D828AF3F9F00AF0057 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60726D728AF3F9F00AF0057 /* SafariView.swift */; };
 		C60726DA28AF469400AF0057 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60726D928AF469400AF0057 /* FrameworkTitleView.swift */; };
+		C623B1F628B93CDC00E875DE /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623B1F528B93CDC00E875DE /* FrameworkDetailViewModel.swift */; };
 		C695541928AEE66100EB67E7 /* AppleFrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C695541828AEE66100EB67E7 /* AppleFrameworksApp.swift */; };
 		C695541B28AEE66100EB67E7 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C695541A28AEE66100EB67E7 /* FrameworkGridView.swift */; };
 		C695541D28AEE66100EB67E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C695541C28AEE66100EB67E7 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		C60029FC28AF2B25009BF2E0 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		C60726D728AF3F9F00AF0057 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		C60726D928AF469400AF0057 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		C623B1F528B93CDC00E875DE /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
 		C695541528AEE66100EB67E7 /* AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C695541828AEE66100EB67E7 /* AppleFrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksApp.swift; sourceTree = "<group>"; };
 		C695541A28AEE66100EB67E7 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				C60029F828AF123F009BF2E0 /* FrameworkDetailView.swift */,
+				C623B1F528B93CDC00E875DE /* FrameworkDetailViewModel.swift */,
 			);
 			path = FrameworkDetailView;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				C695541928AEE66100EB67E7 /* AppleFrameworksApp.swift in Sources */,
 				C60029FD28AF2B25009BF2E0 /* FrameworkGridViewModel.swift in Sources */,
 				C60726DA28AF469400AF0057 /* FrameworkTitleView.swift in Sources */,
+				C623B1F628B93CDC00E875DE /* FrameworkDetailViewModel.swift in Sources */,
 				C60726D828AF3F9F00AF0057 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

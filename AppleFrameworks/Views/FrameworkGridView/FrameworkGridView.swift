@@ -30,7 +30,9 @@ struct FrameworkGridView: View {
             .navigationTitle("Apple Frameworks")
             .sheet(isPresented: $viewModel.isShowingDetailView, content: {
                 // instead of MockData we should create a special empty state data set to use in case of nil
-                FrameworkDetailView(isShowingDetailView: $viewModel.isShowingDetailView, framework: viewModel.selectedFramework ?? MockData.frameworks[0])
+//                FrameworkDetailView(isShowingDetailView: $viewModel.isShowingDetailView, framework: viewModel.selectedFramework ?? MockData.frameworks[0])
+                FrameworkDetailView(viewModel: FrameworkDetailViewModel(framework: viewModel.selectedFramework ?? MockData.frameworks.first!,
+                                                                        isShowingDetailView: $viewModel.isShowingDetailView))
             })
         }
     }
